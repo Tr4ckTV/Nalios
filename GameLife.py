@@ -15,9 +15,7 @@ def Html(matrices):
 
 def Game(matrix):
     def voison(x, y):
-        voisin = [(-1, -1), (-1, 0), (-1, 1),
-                     (0, -1), (0, 1),
-                     (1, -1), (1, 0), (1, 1)]
+        voisin = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
         a = 0
         for dx, dy in voisin:
             bx, by = x + dx, y + dy
